@@ -1,0 +1,32 @@
+{
+    "name": "debuss-a/enumerable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Collection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Debusschère",
+            "email": "alexandre.debusschere@hey.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "pestphp/pest": "^3.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

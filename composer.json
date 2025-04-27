@@ -1,6 +1,19 @@
 {
     "name": "debuss-a/enumerable",
+    "description": "A library that provides a fluent and expressive API for working with collections of data.",
+    "homepage": "https://github.com/debuss/enumerable",
     "license": "MIT",
+    "keywords": [
+        "enumerable",
+        "collection",
+        "list"
+    ],
+    "authors": [
+        {
+            "name": "Alexandre Debusschère",
+            "email": "alexandre.debusschere@hey.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Collection\\": "src/"
@@ -11,14 +24,9 @@
             "Tests\\": "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "Alexandre Debusschère",
-            "email": "alexandre.debusschere@hey.com"
-        }
-    ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "ext-json": "*"
     },
     "require-dev": {
         "phpstan/phpstan": "^2.1",
